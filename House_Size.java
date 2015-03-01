@@ -3,10 +3,11 @@
 //March 1st, 2015
 
 import java.util.Scanner;
-public class P1dot9 {
+public class House_Size {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		System.out.println("How many floors do you want in your house?");
 		int how_big = scan.nextInt();
